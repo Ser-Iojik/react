@@ -1,0 +1,366 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #dae6e6;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.App-header {
+  background-color: #dae6e6;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+}
+
+.Title {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  color: #841708;
+}
+
+.Date {
+  padding-left: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.div-Title-Shedule {
+  padding: 2%;
+  font-size: 18pt;
+}
+
+.Tr-header {
+  padding-right: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-header > td {
+  width: 14.3%;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  width: 97.5%;
+  color: #000;
+}
+
+.div-Shedule{
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 14pt;
+}
+
+.Time{
+  font-size: 18pt;
+}
+
+/* 10:00 */
+.Tr-10 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-10 > td {
+  width: 14.3%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.Tr-10 > td:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.Tr-10 > .Fin {
+  background-color: #6cb5d7;
+  text-align: center;
+}
+
+/* 11:00 */
+.Tr-11 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  background-color: #e7efef;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-11 > td {
+  width: 14.3%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.Tr-11 > td:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.Tr-11 > .Fin {
+  background-color: #6cb5d7;
+  text-align: center;
+}
+
+.Tr-11 > .Nor {
+  background-color: #7290b6;
+  text-align: center;
+}
+
+.Tr-11 > .Isl {
+  background-color: #fafcfc;
+  text-align: center;
+}
+
+/* 17:00 */
+.Tr-17 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-17 > td {
+  width: 14.3%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.Tr-17 > td:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.Tr-17 > .Dat {
+  background-color: #d9958b;
+  text-align: center;
+}
+
+/* 18:00 */
+.Tr-18 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  background-color: #e7efef;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-18 > td {
+  width: 14.3%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.Tr-18 > td:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.Tr-18 > .Shv {
+  background-color: #f4e952;
+  text-align: center;
+}
+
+.Tr-18 > .Dat {
+  background-color: #d9958b;
+  text-align: center;
+}
+
+/* 19:00 */
+.Tr-19 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-19 > td {
+  width: 14.3%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.Tr-19 > td:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.Tr-19 > .Dat {
+  background-color: #d9958b;
+  text-align: center;
+}
+
+.Tr-19 > .Nor {
+  background-color: #7290b6;
+  text-align: center;
+}
+
+.Tr-19 > .Isl {
+  background-color: #fafcfc;
+  text-align: center;
+}
+
+/* 20:00 */
+.Tr-20 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  background-color: #e7efef;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-20 > td {
+  width: 14.3%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.Tr-20 > td:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.Tr-20 > .Isl {
+  background-color: #fafcfc;
+  text-align: center;
+}
+
+.Tr-20 > .Shv {
+  background-color: #f4e952;
+  text-align: center;
+}
+
+.Tr-20 > .Fin {
+  background-color: #6cb5d7;
+  text-align: center;
+}
+/* 21:00 */
+.Tr-21 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.Tr-21 > td {
+  width: 14.3%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.Tr-21 > td:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.Tr-21 > .Dat {
+  background-color: #d9958b;
+  text-align: center;
+}
+
+.Tr-21 > .Nor {
+  background-color: #7290b6;
+  text-align: center;
+}
+
+.div-Button {
+  padding: 5%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.Button {
+  border: 0;
+  border-radius: 40px;
+  background-color: #841708;
+  color: #fff;
+  font-size: 13pt;
+  height: 80px;
+  width: 260px;
+}
+
+.Button:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
